@@ -1,7 +1,10 @@
 #siteTitle {
   color: green;
 }
-nav a{
+li{
+  display: inline;
+}
+a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
