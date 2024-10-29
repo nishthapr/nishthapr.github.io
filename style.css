@@ -7,10 +7,10 @@ nav a{
   text-decoration: none;
 }
 nav {
-  flex : 1;
+  float : right;
 }
 h1{
-  flex : 1;
+  float : left;
 }
 header{
   display: flex;
