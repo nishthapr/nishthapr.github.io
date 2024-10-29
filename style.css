@@ -8,11 +8,14 @@ nav a{
 }
 nav {
   float : right;
+  padding:10px;
+  
 }
 h1{
   float : left;
 }
 header{
   display: flex;
-
+  position: sticky;
+  top: 0px;
 }
