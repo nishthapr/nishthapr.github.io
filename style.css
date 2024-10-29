@@ -1,8 +1,12 @@
 #siteTitle {
   color: green;
+  float:left;
 }
 li{
   display: inline;
+}
+ul{
+  list-style-type:  none;
 }
 a{
   text-align: center;
@@ -10,13 +14,10 @@ a{
   text-decoration: none;
 }
 nav {
-  float : right;
   padding:10px;
-  
+
 }
-h1{
-  float : left;
-}
+
 header{
   display: flex;
   position: sticky;
