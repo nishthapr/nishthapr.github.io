@@ -15,11 +15,12 @@ a{
 }
 nav {
   padding:10px;
-  float : right;
+  float: right;
 }
 
 header{
   display: flex;
   position: sticky;
+  background-color: white;
   top: 0;
 }
