@@ -6,6 +6,12 @@ body{
   color: green;
   float:left;
 }
+nav a:hover{
+  font-weight:bold;
+}
+.currentPage{
+  color: green;
+}
 li{
   display: inline;
 }
