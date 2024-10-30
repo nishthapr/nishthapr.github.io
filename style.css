@@ -10,19 +10,19 @@ ul{
 }
 a{
   text-align: center;
-  padding: 14px 16px;
+  
   text-decoration: none;
 }
 nav {
-  padding:10px;
-  float: right;
+  padding: 2em;
   right:0;
-  justify-content: right;
+  position: fixed;
 }
 
 header{
   display: flex;
   position: sticky;
-  background-color: white;
+  margin:0px;
+  background-color: green;
   top: 0;
 }
