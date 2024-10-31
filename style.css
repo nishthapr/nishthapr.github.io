@@ -16,17 +16,23 @@ body{
 
   @media (max-width:400px){
     nav{
-      position: static;
+      
       background-color: lightgreen;
+      float:none;
+      width:90%;
+      
     }
     #siteTitle{
       float:none;
     }
+    header{
+      
+    }
 
 }
 
-    .speciality{
-     max-width: 600px;
+  .speciality{
+    max-width: 600px;
     width: 40%;
     animation: spin 8s linear infinite;
     }
@@ -66,4 +72,12 @@ body{
   }
   main{
     background-color: pink;
+  }
+  .topImg{
+    display: block;
+    width: 100%;
+  }
+  .pageTitle{
+    text-align: center;
+
   }
