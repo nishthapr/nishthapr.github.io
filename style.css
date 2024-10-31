@@ -1,6 +1,6 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    100% { transform: rotate(361deg); }
 }
 body{
     background-color: pink;
@@ -13,9 +13,22 @@ body{
   nav a{
     color:#37a242;
   }
+
+  @media (max-width:400px){
+    nav{
+      position: static;
+      background-color: lightgreen;
+    }
+    #siteTitle{
+      float:none;
+    }
+
+}
+
     .speciality{
-    width: 20em;
-    animation: spin 4s linear infinite;
+     max-width: 600px;
+    width: 40%;
+    animation: spin 8s linear infinite;
     }
   nav a:hover{
     text-decoration: underline;
@@ -38,13 +51,13 @@ body{
     text-decoration: none;
   }
   nav {
-    margin: 2em;
+    padding: 2em;
     right:0;
     position: fixed;
   }
   
   header{
-    z-index: 10000;
+    z-index: 10;
     display: flex;
     position: sticky;
     margin:0px;
@@ -54,7 +67,3 @@ body{
   main{
     background-color: pink;
   }
-
-
-
-
