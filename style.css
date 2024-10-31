@@ -44,6 +44,7 @@ body{
   }
   
   header{
+    z-index: 10000;
     display: flex;
     position: sticky;
     margin:0px;
