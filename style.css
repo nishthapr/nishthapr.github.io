@@ -62,34 +62,5 @@ body {
   margin: 0;
 }
 
-.rotating-image {
-  width: 200px; /* Desired size */
-  height: 200px;
-  background-image: url("https://m.media-amazon.com/images/I/81hCtnYE1qL._AC_UF894,1000_QL80_.jpg"); /* Path to the image */
-  background-size: cover;
-  background-position: center;
-  animation: rotation 2s infinite linear;
-}
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Only Rotation</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
 
-  <div class="rotating-image"></div>
-
-</body>
-</html>
