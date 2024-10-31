@@ -3,7 +3,7 @@
     100% { transform: rotate(361deg); }
 }
 body{
-    background-color: pink;
+    background-color: rgb(100, 10, 10);
     margin: 0px;
   }
   #siteTitle {
