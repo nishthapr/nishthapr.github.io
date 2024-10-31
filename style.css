@@ -38,7 +38,7 @@ body{
     text-decoration: none;
   }
   nav {
-    padding: 2em;
+    margin: 2em;
     right:0;
     position: fixed;
   }
