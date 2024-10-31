@@ -14,7 +14,7 @@ body{
     color:#37a242;
   }
     .speciality{
-    width: 50em;
+    width: 20em;
     animation: spin 4s linear infinite;
     }
   nav a:hover{
