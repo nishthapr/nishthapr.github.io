@@ -1,41 +1,55 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(361deg); }
+}
 body{
-  background-color: red;
-  margin: 0px;
-}
-#siteTitle {
-  color: green;
-  float:left;
-}
-nav a:hover{
-  font-weight:bold;
-}
-.currentPage{
-  color: green;
-}
-li{
-  display: inline;
-}
-ul{
-  list-style-type:  none;
-}
-a{
-  text-align: center;
-  padding: 1em 1em;
-  text-decoration: none;
-}
-nav {
-  padding: 2em;
-  right:0;
-  position: fixed;
-}
-
-header{
-  display: flex;
-  position: sticky;
-  margin:0px;
-  background-color: #90ee90;
-  top: 0;
-}
-main{
-  background-color: pink;
-}
+    background-color: pink;
+    margin: 0px;
+  }
+  #siteTitle {
+    color: rgb(2, 49, 2);
+    float:left;
+  }
+  nav a{
+    color:#37a242;
+  }
+    .speciality{
+    width: 50%;
+    animation: spin 4s linear infinite;
+    }
+  nav a:hover{
+    text-decoration: underline;
+    font-weight:bold;
+  
+  }
+  .currentPage{
+    color: rgb(3, 61, 3);
+    font-weight: bold;
+  }
+  li{
+    display: inline;
+  }
+  ul{
+    list-style-type:  none;
+  }
+  a{
+    text-align: center;
+    margin: 1em 1em;
+    text-decoration: none;
+  }
+  nav {
+    padding: 2em;
+    right:0;
+    position: fixed;
+  }
+  
+  header{
+    display: flex;
+    position: sticky;
+    margin:0px;
+    background-color: #90ee90;
+    top: 0;
+  }
+  main{
+    background-color: pink;
+  }
