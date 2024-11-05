@@ -1,13 +1,13 @@
 document.getElementById("Div1").innerHTML = "Hello, world!"; 
 
 var slideIndex = 1;
-showDivs(slideIndex);
+showSlides(slideIndex);
 
 function plusSlides(n) {
-  showDivs(slideIndex += n);
+  showSlides(slideIndex += n);
 }
 
-function showDivs(n) {
+function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   
