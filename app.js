@@ -1,5 +1,7 @@
 document.getElementById("Div1").innerHTML = "Hello, world!"; 
 
+document.getElementById("Div9").innerHTML = "file tis connected";
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
