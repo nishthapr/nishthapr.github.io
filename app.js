@@ -14,6 +14,7 @@ document.getElementById("Div9").innerHTML = "file tis connected";
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  document.getElementById("Div9").innerHTML = n + "whats the value";
 
   if (n > slides.length) {slideIndex = 1};
   if (n < 1) {slideIndex = slides.length} ;
@@ -22,7 +23,7 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   if(6==6){
-  document.getElementById("Div9").innerHTML = "tis run!" + n; 
+   
   slides[slideIndex-1].style.display = "initial";
   }
 }
