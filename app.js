@@ -14,7 +14,7 @@ document.getElementById("Div9").innerHTML = "file tis connected";
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  document.getElementById("Div9").innerHTML = isNaN(n);
+  document.getElementById("Div9").innerHTML = isNaN(n).toString();
 
   if (n > slides.length) {slideIndex = 1};
   if (n < 1) {slideIndex = slides.length} ;
