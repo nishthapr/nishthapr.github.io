@@ -1,4 +1,4 @@
-
+document.getElementById("Div1").innerHTML = "Hello, world!"; 
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -9,8 +9,9 @@ function plusSlides(n) {
 
 function showSlides(n) {
   var i;
-  document.getElementById("Div1").innerHTML = "Hello, world!"; 
   var slides = document.getElementsByClassName("mySlides");
+  
+  document.getElementById("Div9").innerHTML = "tis run!"; 
   
   if (n > slides.length) {slideIndex = 1};
   if (n < 1) {slideIndex = slides.length} ;
