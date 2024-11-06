@@ -6,7 +6,10 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  document.getElementById("Div7").innerHTML = isNaN(n).toString();
+  var slidee = slideIndex + n;
+  document.getElementById("Div6").innerHTML = isNaN(slidee).toString();
+  showSlides(slidee);
 }
 
 document.getElementById("Div9").innerHTML = "file tis connected";
@@ -14,6 +17,7 @@ document.getElementById("Div9").innerHTML = "file tis connected";
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  document.getElementById("Div8").innerHTML = "the function has run" + n;
   document.getElementById("Div9").innerHTML = isNaN(n).toString();
 
   if (n > slides.length) {slideIndex = 1};
