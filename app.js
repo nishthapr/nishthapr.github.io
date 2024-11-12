@@ -1,6 +1,6 @@
 document.getElementById("Div1").innerHTML = "Hello, world!"; 
 
-
+document.getElementById("Div9").innerHTML = "file tis connected";
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -17,7 +17,7 @@ function plusSlides(n) {
   showSlides(slideIndex);
 }
 
-document.getElementById("Div9").innerHTML = "file tis connected";
+document.getElementById("Div9").innerHTML = "file run n tis connected";
 
 function showSlides(n) {
   var i;
