@@ -1,15 +1,27 @@
 document.getElementById("Div1").innerHTML = "Hello, world!"; 
 
-document.getElementById("Div9").innerHTML = "file tis connected";
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
 
+
 function plusSlides(n) {
+
+
+function plusSlides(x) {
+  if(x == 1){
+    var n = 1;
+  }else{
+    var n = -1;
+  }
+
   document.getElementById("Div7").innerHTML = isNaN(n).toString();
-  var slidee = slideIndex + n;
-  document.getElementById("Div5").innerHTML = isNaN(slideIndex).toString();
-  document.getElementById("Div6").innerHTML = isNaN(slidee).toString();
+  document.getElementById("Div5").innerHTML = n;
+  document.getElementById("Div4").innerHTML = isNaN(slideIndex).toString();
+  slideIndex += n;
+
+  document.getElementById("Div6").innerHTML = isNaN(slideIndex).toString();
   showSlides(slidee);
 }
 
