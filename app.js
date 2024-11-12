@@ -14,7 +14,7 @@ function plusSlides(n) {
   slideIndex += n;
 
   document.getElementById("Div6").innerHTML = isNaN(slideIndex).toString();
-  showSlides(slidee);
+  showSlides(slideIndex);
 }
 
 document.getElementById("Div9").innerHTML = "file tis connected";
