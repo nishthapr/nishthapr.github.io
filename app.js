@@ -12,8 +12,7 @@ function plusSlides(n) {
   document.getElementById("Div5").innerHTML = n;
   document.getElementById("Div4").innerHTML = isNaN(slideIndex).toString();
   slideIndex += n;
-
-  document.getElementById("Div6").innerHTML = isNaN(slideIndex).toString();
+  document.getElementById("Div6").innerHTML = isNaN(n).toString();
   showSlides(slideIndex);
 }
 
